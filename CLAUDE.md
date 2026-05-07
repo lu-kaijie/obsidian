@@ -4,17 +4,17 @@
 
 每次新对话开始时：
 
-1. `git pull` 拉取手机端可能的新推送
+1. `git pull -r` 拉取手机端可能的新推送（rebase 模式，保持线性历史）
 2. 读取 `CLAUDE.md`（本文件）了解规范
-2. 读取 `index.md` 了解当前 wiki 内容状态
-3. 扫描 `raw/` 找出未处理文件，包含两种情况：
+3. 读取 `index.md` 了解当前 wiki 内容状态
+4. 扫描 `raw/` 找出未处理文件，包含两种情况：
    - frontmatter 中 `ingested: false` 的文件
    - 直接位于 `raw/` 根目录下、缺少规范 frontmatter 的文件（来自 Obsidian Web Clipper）
 
    对于 Web Clipper 文件，先判断主题移动到对应子目录，再补全 frontmatter（`ingested: false`、`source_url`、`saved` 等），然后统一提示用户："发现 N 个未处理资料，是否现在 ingest？"
-4. 读取 `inbox.md`，若其中有内容，提示用户："inbox 中有待处理链接，是否现在处理？"处理完成后删除已处理的行。
-5. 读取 `log.md`，统计上次 lint 之后的 ingest 次数，若达到 10 次则提醒用户："距上次健康检查已摄入 10 篇资料，建议执行 lint。"
-6. 等待用户指令
+5. 读取 `inbox.md`，若其中有内容，提示用户："inbox 中有待处理链接，是否现在处理？"处理完成后删除已处理的行。
+6. 读取 `log.md`，统计上次 lint 之后的 ingest 次数，若达到 10 次则提醒用户："距上次健康检查已摄入 10 篇资料，建议执行 lint。"
+7. 等待用户指令
 
 ## 目录结构
 
