@@ -1,0 +1,28 @@
+sources:
+  - path: raw/ai/2026-05-07-claude-personal-guidance-webclip.md
+    source_url: https://www.anthropic.com/research/claude-personal-guidance
+    source_type: webclip
+    canonical_topic: claude-personal-guidance
+    ingested: true
+    ingested_date: 2026-05-07
+    wiki_pages:
+      - wiki/ai/claude-personal-guidance.md
+    notes: Duplicate web clip archived as a supplemental source; do not re-ingest as a separate topic.
+  - path: raw/ai/2026-05-07-anthropic-institute-focus-areas.md
+    source_url: https://www.anthropic.com/research/anthropic-institute-agenda
+    source_type: source-markdown
+    canonical_topic: anthropic-institute-agenda
+    ingested: true
+    ingested_date: 2026-05-07
+    wiki_pages:
+      - wiki/ai/anthropic-institute-agenda.md
+    notes: Current local source markdown; closer to full-text source than a summary.
+  - path: raw/ai/2026-05-07-biomysterybench-claude-bioinformatics-webclip.md
+    source_url: https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench
+    source_type: webclip
+    canonical_topic: biomysterybench-claude-bioinformatics
+    ingested: true
+    ingested_date: 2026-05-07
+    wiki_pages:
+      - wiki/ai/biomysterybench-claude-bioinformatics.md
+    notes: Canonical local source for the BioMysteryBench article.

@@ -1,4 +1,4 @@
-# CLAUDE.md — Wiki Schema
+# AGENTS.md — Wiki Schema
 
 ## 指令文件同步规则
 
@@ -36,7 +36,7 @@
 index.md       ← Wiki 内容目录（每次 ingest 后更新）
 log.md         ← 操作日志（仅追加）
 ingest-state.yaml ← 原始资料摄入状态表（机器可读）
-CLAUDE.md      ← 本文件，schema 配置
+AGENTS.md      ← 本文件，schema 配置
 ```
 
 ## 资料来源一致性
