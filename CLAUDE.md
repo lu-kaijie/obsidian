@@ -4,7 +4,8 @@
 
 每次新对话开始时：
 
-1. 读取 `CLAUDE.md`（本文件）了解规范
+1. `git pull` 拉取手机端可能的新推送
+2. 读取 `CLAUDE.md`（本文件）了解规范
 2. 读取 `index.md` 了解当前 wiki 内容状态
 3. 扫描 `raw/` 找出未处理文件，包含两种情况：
    - frontmatter 中 `ingested: false` 的文件
