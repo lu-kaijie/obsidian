@@ -1,0 +1,12 @@
+# Obsidian Vault .gitignore
+
+# Obsidian 工作区配置（本地专属，不同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 缓存
+.obsidian/cache
+.trash/
+
+# claudian 本地数据
+.claudian/
