@@ -15,6 +15,7 @@ _暂无_
 - [[wiki/ai/claude-personal-guidance|人们如何向 Claude 寻求个人指导]] — Anthropic 2026 年研究，基于约 100 万条对话抽样分析个人指导模式与谄媚问题
 - [[wiki/ai/anthropic-institute-agenda|Anthropic 研究所研究议程]] — TAI 四大研究支柱：经济扩散、威胁与韧性、AI 现实影响、AI 驱动研发
 - [[wiki/ai/biomysterybench-claude-bioinformatics|BioMysteryBench：Claude 生物信息学能力评估]] — Claude 在生物信息学任务上接近/超越人类专家，难题上准确率之外更关键的是可靠性仍然脆弱
+- [[wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo|Harness + SDD + 多仓管理：AI 全栈开发实践]] — 用约束、SDD 和多 Agent 协作提升 AI 代码生成的可采纳性
 
 ## 综合分析
 

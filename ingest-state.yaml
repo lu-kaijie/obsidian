@@ -26,3 +26,12 @@ sources:
     wiki_pages:
       - wiki/ai/biomysterybench-claude-bioinformatics.md
     notes: Canonical local source for the BioMysteryBench article.
+  - path: raw/ai/2026-05-07-ai-fullstack-dev-practice-harness-sdd-multi-repo-webclip.md
+    source_url: https://mp.weixin.qq.com/
+    source_type: webclip
+    canonical_topic: ai-fullstack-dev-practice-harness-sdd-multi-repo
+    ingested: true
+    ingested_date: 2026-05-07
+    wiki_pages:
+      - wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo.md
+    notes: DeWu engineering article on Harness constraints, SDD workflow, and multi-agent full-stack development.
