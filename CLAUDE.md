@@ -6,8 +6,13 @@
 
 1. 读取 `CLAUDE.md`（本文件）了解规范
 2. 读取 `index.md` 了解当前 wiki 内容状态
-3. 扫描 `raw/` 找出 frontmatter 中 `ingested: false` 的文件，若有则提示用户："发现 N 个未处理资料，是否现在 ingest？"
-4. 等待用户指令
+3. 扫描 `raw/` 找出未处理文件，包含两种情况：
+   - frontmatter 中 `ingested: false` 的文件
+   - 直接位于 `raw/` 根目录下、缺少规范 frontmatter 的文件（来自 Obsidian Web Clipper）
+
+   对于 Web Clipper 文件，先判断主题移动到对应子目录，再补全 frontmatter（`ingested: false`、`source_url`、`saved` 等），然后统一提示用户："发现 N 个未处理资料，是否现在 ingest？"
+4. 读取 `log.md`，统计上次 lint 之后的 ingest 次数，若达到 10 次则提醒用户："距上次健康检查已摄入 10 篇资料，建议执行 lint。"
+5. 等待用户指令
 
 ## 目录结构
 
@@ -46,6 +51,7 @@ CLAUDE.md      ← 本文件，schema 配置
 2. 读取相关 wiki 页面，综合回答
 3. 有价值的回答可以作为新页面存入 `wiki/`
 4. 在 `log.md` 追加记录：`## [日期] query | 问题摘要`
+5. 若产生了新 wiki 页面，询问用户是否推送到 GitHub
 
 ### Lint（健康检查）
 
@@ -114,4 +120,4 @@ wiki/
 3. 若主题子目录不存在则自动创建
 4. 跨主题资料放最相关的主题目录，边界模糊时询问用户
 5. 文件命名：`YYYY-MM-DD-标题slug.md`
-6. 继续执行 Ingest 流程
+6. 继续执行 Ingest 流程（讨论要点 → 更新 wiki → 更新 index/log → 询问是否推送）
