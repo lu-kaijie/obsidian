@@ -35,3 +35,57 @@ sources:
     wiki_pages:
       - wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo.md
     notes: DeWu engineering article on Harness constraints, SDD workflow, and multi-agent full-stack development.
+  - path: raw/ai/2026-05-08-harness-engineering-codex-agent-first-webclip.md
+    source_url: https://openai.com/zh-Hans-CN/index/harness-engineering/
+    source_type: webclip
+    canonical_topic: harness-engineering-codex-agent-first
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/harness-engineering-codex-agent-first.md
+    notes: OpenAI engineering article on agent-first software development with Codex, short AGENTS maps, and repository-as-record-system.
+  - path: raw/ai/2026-05-08-ai-native-rd-organization-future-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Xf3C60jCxR4ppMi4HuAnVA
+    source_type: webclip
+    canonical_topic: ai-native-rd-organization-future
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/ai-native-rd-organization-future.md
+    notes: Essay on how AI agents change organizational design, management, routing, governance, and information bottlenecks.
+  - path: raw/ai/2026-05-08-enterprise-ai-application-building-guide-webclip.md
+    source_url: https://mp.weixin.qq.com/s/cxYaTeKxbg5g6rNflQSxsg
+    source_type: webclip
+    canonical_topic: enterprise-ai-application-building-guide
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/enterprise-ai-application-building-guide.md
+    notes: Enterprise AI application guide covering evolution from chat to agent, delivery differences, infra stack, and AI-specific security issues.
+  - path: raw/ai/2026-05-08-ai-code-review-aacr-bench-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Plh2Q4zkDKnLgPBOoOSxTA
+    source_type: webclip
+    canonical_topic: ai-code-review-aacr-bench
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/ai-code-review-aacr-bench.md
+    notes: Alibaba article on agent-based AI code review, scoped review rules, and the AACR-Bench benchmark.
+  - path: raw/ai/2026-05-08-opensandbox-agent-sandbox-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Plh2Q4zkDKnLgPBOoOSxTA
+    source_type: webclip
+    canonical_topic: ai-code-review-aacr-bench
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/ai-code-review-aacr-bench.md
+    notes: Mislabeled duplicate clip. Filename says OpenSandbox, but file content is byte-for-byte identical to the AI code review article, so it was archived as a duplicate source and not ingested as a separate topic.
+  - path: raw/ai/2026-05-08-opensandbox-agent-sandbox-webclip-v2.md
+    source_url: https://mp.weixin.qq.com/s/zN8FidEku-a8rZ-DohPveQ
+    source_type: webclip
+    canonical_topic: opensandbox-agent-sandbox
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/opensandbox-agent-sandbox.md
+    notes: Correct OpenSandbox source clip. Replaces the earlier mislabeled duplicate as the canonical source for this topic.

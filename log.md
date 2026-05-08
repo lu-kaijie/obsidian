@@ -14,6 +14,13 @@
 ## [2026-05-07] ingest | Evaluating Claude's bioinformatics research capabilities with BioMysteryBench（Web Clipper 原文补充，刷新 benchmark 设计与可靠性分析，迁出 raw 中的生成摘要）
 ## [2026-05-07] ingest | 从 raw 原始来源重建被删除的 wiki/ai 页面（claude-personal-guidance、anthropic-institute-agenda、biomysterybench）
 ## [2026-05-07] ingest | 基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践
+## [2026-05-08] ingest | 在智能体优先的世界中利用 Codex
+## [2026-05-08] ingest | AI Native 时代 —— 研发组织何去何从
+## [2026-05-08] ingest | 《企业 AI 应用构建指南》正式发布
+## [2026-05-08] ingest | 给“氛围编程”系上安全带：阿里集团 AI 代码评审实践与 Benchmark 开源
+## [2026-05-08] ingest | OpenSandbox 剪藏文件核验：当前内容与 AI 代码评审文章完全重复，归档为错位重复来源，不单独生成 wiki 页面
+## [2026-05-08] ingest | 阿里重磅开源！OpenSandbox：专为 AI Agent 打造的下一代沙箱（补入正确原文，生成独立 wiki 页面）
+## [2026-05-08] lint | 检查结果：新增 AI 页面索引、overview 与 ingest-state 一致；OpenSandbox 正确原文已替换为 canonical source；未发现新孤立页或明显交叉引用缺口
 
 ## [2026-05-07] lint | 检查结果：overview 过时已更新，补全 3 篇摘要页阅读评级，修复交叉引用（claude-personal-guidance 出链、知识管理-最佳实践 被引用），修复 anthropic-institute-agenda 中错误链接
 ## [2026-05-07] lint | 检查结果：链接与 ingest-state 一致；修正 overview 中 AI 页面数 4→3
