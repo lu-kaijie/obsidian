@@ -1,6 +1,6 @@
 ---
 tags: [摘要, ai, ai-safety, anthropic]
-sources: [raw/ai/2026-05-07-anthropic-institute-focus-areas.md]
+sources: [raw/ai/anthropic/research/2026-05-07-anthropic-institute-focus-areas.md]
 updated: 2026-05-07
 ---
 

@@ -21,6 +21,79 @@
 ## [2026-05-08] ingest | OpenSandbox 剪藏文件核验：当前内容与 AI 代码评审文章完全重复，归档为错位重复来源，不单独生成 wiki 页面
 ## [2026-05-08] ingest | 阿里重磅开源！OpenSandbox：专为 AI Agent 打造的下一代沙箱（补入正确原文，生成独立 wiki 页面）
 ## [2026-05-08] lint | 检查结果：新增 AI 页面索引、overview 与 ingest-state 一致；OpenSandbox 正确原文已替换为 canonical source；未发现新孤立页或明显交叉引用缺口
+## [2026-05-08] ingest | AI工程vs传统工程 —「道法术」中的变与不变
+## [2026-05-08] ingest | AI编码实践：从Vibe Coding到SDD
+## [2026-05-09] ingest | 傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？
 
 ## [2026-05-07] lint | 检查结果：overview 过时已更新，补全 3 篇摘要页阅读评级，修复交叉引用（claude-personal-guidance 出链、知识管理-最佳实践 被引用），修复 anthropic-institute-agenda 中错误链接
 ## [2026-05-07] lint | 检查结果：链接与 ingest-state 一致；修正 overview 中 AI 页面数 4→3
+## [2026-05-09] ingest | 5 人 7 天干完 20 人数周的活：Spec-Driven Development 如何重新定义 AI 编程
+## [2026-05-09] ingest | 从 ReAct 到 Ralph Loop：AI Agent 的持续迭代范式
+## [2026-05-09] ingest | AI Agent 记忆系统：从短期到长期的技术架构与实践
+## [2026-05-09] ingest | 生产级Prompt自动化推理评估A/B实验结果的工程实践
+## [2026-05-09] ingest | 从传统编程转向大模型编程
+## [2026-05-09] ingest | AI 原生研发范式：从“代码中心”到“文档驱动”的演进
+## [2026-05-09] ingest | AgentScope 正式发布 Skills 支持 - 实现渐进式披露
+## [2026-05-09] ingest | 自动化评测的九九归一——评测agent
+## [2026-05-09] ingest | 告别“伪智能”代码：用 Spec + RAG 打造真正懂你的AI程序员
+## [2026-05-09] ingest | 借助 AI Coding 快速打造 AI Agent 系统
+## [2026-05-09] ingest | 当我们谈论 AI 推理的 KV Cache，我们在说什么？
+## [2026-05-09] ingest | AI Agent系列｜深入解析Function Calling、MCP和Skills的本质差异与最佳实践
+## [2026-05-09] ingest | 揭秘 Claude Code 前沿技巧与 Qoder CLI 日常开发实战
+## [2026-05-09] ingest | 打造高可靠 AI 助手：Skill 编排、Workflow 设计与 Spec Coding 的深度实践
+## [2026-05-09] ingest | 做AI产品三年复盘，我看到的变与不变
+## [2026-05-09] ingest | Agent/Skills/Teams 架构演进过程及技术选型之道
+## [2026-05-09] ingest | 深入理解OpenClaw技术架构与实现原理（上）
+## [2026-05-09] ingest | 工程知识引擎：Harness Engineering体系下的工程知识底座
+## [2026-05-09] ingest | 企业级 Agent 多智能体架构与选型指南 -- 来自1000+行业应用实践积累
+## [2026-05-09] ingest | 业务逻辑的“坍塌”：当应用层只剩下胶水代码，在 AI Agent 时代，我们该构建什么
+## [2026-05-09] ingest | 深入理解OpenClaw技术架构与实现原理（下）
+## [2026-05-09] ingest | Harness驾驭工程是AI平权的必经之路？
+## [2026-05-09] ingest | 阿里云发布 Agentic OS：首个面向 Agent 的操作系统
+## [2026-05-09] ingest | 2026 年 AI 编码的“渐进式 Spec”实战指南
+## [2026-05-09] ingest | Qoder 工程实践：Harness Engineering 指南
+## [2026-05-09] ingest | 「纯干货」几万字都讲不明白的Memory架构与思考
+## [2026-05-09] lint | 刷新 overview 统计与主题簇，修复 ingest-state YAML 合法性，并消除近期新增 AI 页面零入链问题
+## [2026-05-09] lint | 复核通过：overview 统计与 ingest-state 一致，YAML 可解析，wiki 零孤立页，Clippings 当前为空
+## [2026-05-09] ingest | OpenClaw 实战：一个人、一台 Mac、六个 AI Agent — 从"能聊天"到"能干活"的工程实战
+## [2026-05-09] ingest | Claude Code 源码拆解：从启动到多 Agent 扩展层
+## [2026-05-09] ingest | OpenClaw长期记忆：优秀管线与玄学效果
+## [2026-05-09] ingest | 深度解析 OpenClaw 在 Prompt / Context / Harness 三个维度中的设计哲学与实践
+## [2026-05-09] ingest | 从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移
+## [2026-05-09] ingest | 赛博鸡生蛋，7小时用Claude Vibe Coding一个Mini-Claude
+## [2026-05-10] ingest | 从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering
+## [2026-05-10] ingest | 深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践
+## [2026-05-10] lint | 刷新 overview 统计与主题地图，补入 Claude Code / Harness / Memory 新页链接，消除 4 个零入链页面并复核 ingest-state YAML 可解析
+## [2026-05-10] ingest | 5 人 7 天干完 20 人数周的活：Spec-Driven Development 如何重新定义 AI 编程
+## [2026-05-10] ingest | Agent 时代的生产力悖论：当协作本身成为最大的瓶颈
+## [2026-05-10] ingest | Harness Engineering：耗时一周，我是如何将应用的AI Coding率提升至90%的
+## [2026-05-10] ingest | 一个文件让 AI Coding 效率翻倍：AGENTS.md 实践指南
+## [2026-05-10] ingest | 你不知道的 Agent：原理、架构与工程实践
+## [2026-05-10] ingest | 告别“氛围编程”：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践
+## [2026-05-10] ingest | 深入源码：Hermes Agent 如何实现 Self-Improving
+## [2026-05-10] ingest | A postmortem of three recent issues
+## [2026-05-10] ingest | Best practices for Claude Code
+## [2026-05-10] ingest | Building a C compiler with a team of parallel Claudes
+## [2026-05-10] ingest | Building agents with the Claude Agent SDK
+## [2026-05-10] ingest | Building Effective AI Agents
+## [2026-05-10] ingest | Claude Code auto mode: a safer way to skip permissions
+## [2026-05-10] ingest | Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
+## [2026-05-10] ingest | Claude SWE-Bench Performance
+## [2026-05-10] ingest | Code execution with MCP: building more efficient AI agents
+## [2026-05-10] ingest | Contextual Retrieval in AI Systems
+## [2026-05-10] ingest | Demystifying evals for AI agents
+## [2026-05-10] ingest | Designing AI resistant technical evaluations
+## [2026-05-10] ingest | Effective context engineering for AI agents
+## [2026-05-10] ingest | Effective harnesses for long-running agents
+## [2026-05-10] ingest | Equipping agents for the real world with Agent Skills
+## [2026-05-10] ingest | Eval awareness in Claude Opus 4.6’s BrowseComp performance
+## [2026-05-10] ingest | Harness design for long-running application development
+## [2026-05-10] ingest | How we built our multi-agent research system
+## [2026-05-10] ingest | Introducing advanced tool use on the Claude Developer Platform
+## [2026-05-10] ingest | Making Claude Code more secure and autonomous with sandboxing
+## [2026-05-10] ingest | Quantifying infrastructure noise in agentic coding evals
+## [2026-05-10] ingest | Scaling Managed Agents: Decoupling the brain from the hands
+## [2026-05-10] ingest | The "think" tool: Enabling Claude to stop and think
+## [2026-05-10] ingest | Writing effective tools for AI agents—using AI agents
+## [2026-05-10] lint | 忽略 Clippings 新批次，仅刷新 overview 统计与主题地图，补入 5 个近期新增 AI 页面并消除零入链，复核 ingest-state YAML 可解析
+## [2026-05-10] lint | 完成 Anthropic engineering 批次摄入后的健康检查：overview 已补齐交叉引用，孤页 0，ingest-state YAML 可解析，Clippings 已清空，资料与页面计数一致

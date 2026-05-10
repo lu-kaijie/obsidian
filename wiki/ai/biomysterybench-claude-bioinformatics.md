@@ -1,6 +1,6 @@
 ---
 tags: [摘要, ai, bioinformatics, benchmarks, anthropic]
-sources: [raw/ai/2026-05-07-biomysterybench-claude-bioinformatics-webclip.md]
+sources: [raw/ai/anthropic/research/2026-05-07-biomysterybench-claude-bioinformatics-webclip.md]
 updated: 2026-05-07
 ---
 

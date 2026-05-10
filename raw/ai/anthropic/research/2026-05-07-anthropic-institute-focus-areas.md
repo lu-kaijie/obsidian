@@ -1,10 +1,8 @@
 ---
-title: "Focus areas for The Anthropic Institute"
-source_url: "https://www.anthropic.com/research/anthropic-institute-agenda"
+title: Focus areas for The Anthropic Institute
+source_url: https://www.anthropic.com/research/anthropic-institute-agenda
 saved: 2026-05-07
-tags: [ai, ai-safety, anthropic]
-ingested: true
-ingested_date: 2026-05-07
+tags: [ai]
 ---
 ## 人类学研究所的重点领域
 

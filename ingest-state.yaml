@@ -1,5 +1,5 @@
 sources:
-  - path: raw/ai/2026-05-07-claude-personal-guidance-webclip.md
+  - path: raw/ai/anthropic/research/2026-05-07-claude-personal-guidance-webclip.md
     source_url: https://www.anthropic.com/research/claude-personal-guidance
     source_type: webclip
     canonical_topic: claude-personal-guidance
@@ -8,7 +8,7 @@ sources:
     wiki_pages:
       - wiki/ai/claude-personal-guidance.md
     notes: Duplicate web clip archived as a supplemental source; do not re-ingest as a separate topic.
-  - path: raw/ai/2026-05-07-anthropic-institute-focus-areas.md
+  - path: raw/ai/anthropic/research/2026-05-07-anthropic-institute-focus-areas.md
     source_url: https://www.anthropic.com/research/anthropic-institute-agenda
     source_type: source-markdown
     canonical_topic: anthropic-institute-agenda
@@ -17,7 +17,7 @@ sources:
     wiki_pages:
       - wiki/ai/anthropic-institute-agenda.md
     notes: Current local source markdown; closer to full-text source than a summary.
-  - path: raw/ai/2026-05-07-biomysterybench-claude-bioinformatics-webclip.md
+  - path: raw/ai/anthropic/research/2026-05-07-biomysterybench-claude-bioinformatics-webclip.md
     source_url: https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench
     source_type: webclip
     canonical_topic: biomysterybench-claude-bioinformatics
@@ -89,3 +89,615 @@ sources:
     wiki_pages:
       - wiki/ai/opensandbox-agent-sandbox.md
     notes: Correct OpenSandbox source clip. Replaces the earlier mislabeled duplicate as the canonical source for this topic.
+  - path: raw/ai/2026-05-08-ai-engineering-vs-traditional-engineering-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Foiid7aYvTD0-ejBSGhM7A
+    source_type: webclip
+    canonical_topic: ai-engineering-vs-traditional-engineering
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/ai-engineering-vs-traditional-engineering.md
+    notes: Methodology article using the 道法术 framework to explain what changes and what stays stable between traditional software engineering and AI engineering.
+  - path: raw/ai/2026-05-08-ai-coding-practice-vibe-coding-to-sdd-webclip.md
+    source_url: https://mp.weixin.qq.com/s/W6-e-uSPcGCqQAXxx_PDgA
+    source_type: webclip
+    canonical_topic: ai-coding-practice-vibe-coding-to-sdd
+    ingested: true
+    ingested_date: 2026-05-08
+    wiki_pages:
+      - wiki/ai/ai-coding-practice-vibe-coding-to-sdd.md
+    notes: Taote team retrospective on evolving from completion to agent coding, then rule files and spec-kit / SDD, landing on a pragmatic hybrid workflow.
+  - path: raw/ai/2026-05-09-api-router-token-arbitrage-webclip.md
+    source_url: https://mp.weixin.qq.com/s/u1w-VX5wpVR-wnMIYmt8rA
+    source_type: webclip
+    canonical_topic: api-router-token-arbitrage
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/api-router-token-arbitrage.md
+    notes: Industry-observation article on API relay / router platforms, gray-market token arbitrage, and the likely shift from information-arbitrage middlemen toward compliant gateway infrastructure.
+  - path: raw/ai/2026-05-09-spec-driven-development-redefining-ai-coding-webclip.md
+    source_url: https://mp.weixin.qq.com/s/hVizUucsy8rwFOUR-VZ6wA
+    source_type: webclip
+    canonical_topic: spec-driven-development-redefining-ai-coding
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/spec-driven-development-redefining-ai-coding.md
+    notes: Long-form methodology article using the QoderWork 5-people-7-days case to argue that SDD turns specs into the operational control layer between vibe coding and scalable harness engineering.
+  - path: raw/ai/2026-05-09-react-to-ralph-loop-agent-iteration-webclip.md
+    source_url: https://mp.weixin.qq.com/s/K4ZUGBzT0s9RwFlaYcuHiA
+    source_type: webclip
+    canonical_topic: react-to-ralph-loop-agent-iteration
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/react-to-ralph-loop-agent-iteration.md
+    notes: Methodology article explaining Ralph Loop as an externalized refine-until-done control layer that forces coding agents to continue until verifiable completion criteria are met.
+  - path: raw/ai/2026-05-09-ai-agent-memory-systems-architecture-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/mftM6jr0YiFxRATeNvm5Qg
+    source_type: webclip
+    canonical_topic: ai-agent-memory-systems-architecture-practice
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/ai-agent-memory-systems-architecture-practice.md
+    notes: Overview article framing agent memory as a layered system spanning short-term session context, long-term personalized memory, context engineering, and memory-as-a-service infrastructure.
+  - path: raw/ai/2026-05-09-production-prompt-ab-evaluation-engineering-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/y2Sq_KEFRlDEnFgDsEKxNQ
+    source_type: webclip
+    canonical_topic: production-prompt-ab-evaluation-engineering-practice
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/production-prompt-ab-evaluation-engineering-practice.md
+    notes: Engineering case study showing how to encode A/B experiment offline decisions into a production prompt with ordered rules, exclusion clauses, normalization logic, and bad-case driven refinement.
+  - path: raw/ai/2026-05-09-transition-from-traditional-to-llm-programming-webclip.md
+    source_url: https://mp.weixin.qq.com/s/S9XBcdof43MdwYd2tXGl1Q
+    source_type: webclip
+    canonical_topic: transition-from-traditional-to-llm-programming
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/transition-from-traditional-to-llm-programming.md
+    notes: Practical transition guide arguing that engineers should move from writing implementation directly to defining documents, constraints, and reusable skill workflows that compile into code via LLMs.
+  - path: raw/ai/2026-05-09-ai-native-rd-paradigm-doc-driven-evolution-webclip.md
+    source_url: https://mp.weixin.qq.com/s/WoEetgbDkNidf7Flmg8dUQ
+    source_type: webclip
+    canonical_topic: ai-native-rd-paradigm-doc-driven-evolution
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/ai-native-rd-paradigm-doc-driven-evolution.md
+    notes: Team-oriented SDD practice guide framing spec files as save points against context decay, review paralysis, and maintenance gaps, with a lightweight RIPER workflow for AI-native engineering.
+  - path: raw/ai/2026-05-09-agentscope-skills-progressive-disclosure-webclip.md
+    source_url: https://mp.weixin.qq.com/s/_iUHLFap_3djHXMJClnfRg
+    source_type: webclip
+    canonical_topic: agentscope-skills-progressive-disclosure
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/agentscope-skills-progressive-disclosure.md
+    notes: Agent capability-management article introducing Skills as structured SOP packages with progressive disclosure, so agents can discover capabilities cheaply and load full instructions/resources only when needed.
+  - path: raw/ai/2026-05-09-evaluation-agent-unified-automation-webclip.md
+    source_url: https://mp.weixin.qq.com/s/5ytev_RLKutH9S6mgmMQpw
+    source_type: webclip
+    canonical_topic: evaluation-agent-unified-automation
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/evaluation-agent-unified-automation.md
+    notes: Evaluation-infrastructure article on building a unified eval agent that learns business labeling standards from documents and automates dataset generation, scoring, acceptance, and badcase analysis.
+  - path: raw/ai/2026-05-09-spec-rag-ai-programmer-knowledge-infra-webclip.md
+    source_url: https://mp.weixin.qq.com/s/1NqfWn_kH5y-mBXAAu62aA
+    source_type: webclip
+    canonical_topic: spec-rag-ai-programmer-knowledge-infra
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/spec-rag-ai-programmer-knowledge-infra.md
+    notes: Conceptual article proposing a dual knowledge system for AI coding, where Spec provides hard project constraints, RAG provides soft contextual knowledge, and MCP exposes external tools/resources as the runtime interface.
+  - path: raw/ai/2026-05-09-build-ai-agent-system-with-ai-coding-webclip.md
+    source_url: https://mp.weixin.qq.com/s/SzMyIu6pAHVvU7nUnQSwjg
+    source_type: webclip
+    canonical_topic: build-ai-agent-system-with-ai-coding
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/build-ai-agent-system-with-ai-coding.md
+    notes: Migration case study showing how AI Coding accelerated the rebuild of a shopping-scene agent from low-code orchestration to a LangGraph-based architecture with Skills, Planner, A2A, and MCP integration.
+  - path: raw/ai/2026-05-09-ai-inference-kv-cache-what-we-mean-webclip.md
+    source_url: https://mp.weixin.qq.com/s/N44kMpWtgmfqLB4S5MUjaA
+    source_type: webclip
+    canonical_topic: ai-inference-kv-cache-what-we-mean
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/ai-inference-kv-cache-what-we-mean.md
+    notes: Inference-infrastructure article explaining KV Cache as compute cache, then extending the discussion to paged memory management, radix prefix reuse, prefill/decode disaggregation, and LMCache as an independent KV cache layer.
+  - path: raw/ai/2026-05-09-function-calling-mcp-skills-differences-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/dAnNHayrE49FEl8TcLII2Q
+    source_type: webclip
+    canonical_topic: function-calling-mcp-skills-differences-practice
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/function-calling-mcp-skills-differences-practice.md
+    notes: Agent-tooling article framing Function Calling as the substrate, MCP as the standard integration layer for external systems, and Skills as the text-defined workflow layer built on top of tool calling.
+  - path: raw/ai/2026-05-09-claude-code-qoder-cli-advanced-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/bM3iAIJocpmwjphgX8Wo1A
+    source_type: webclip
+    canonical_topic: claude-code-qoder-cli-advanced-practice
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/claude-code-qoder-cli-advanced-practice.md
+    notes: Overview article decomposing modern AI coding CLI design into commands, subagents, skills, hooks, and programmatic tool calling, then using Qoder CLI as a concrete workflow implementation across coding, review, and ops scenarios.
+  - path: raw/ai/2026-05-09-reliable-ai-assistant-skill-workflow-spec-coding-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/nClVag8tyw7wuG-V1rhmfQ
+    source_type: webclip
+    canonical_topic: reliable-ai-assistant-skill-workflow-spec-coding-practice
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/reliable-ai-assistant-skill-workflow-spec-coding-practice.md
+    notes: Reliability-oriented agent engineering article connecting context engineering, skill/subagent boundaries, workflow-level orchestration, workflow initialization, and versioned workflow repositories as the next layer beyond standalone skills.
+  - path: raw/ai/2026-05-09-ai-product-three-year-retrospective-change-and-constants-webclip.md
+    source_url: https://mp.weixin.qq.com/s/rzHY5k5ddCpIE9Cp4LdW8A
+    source_type: webclip
+    canonical_topic: ai-product-three-year-retrospective-change-and-constants
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/ai-product-three-year-retrospective-change-and-constants.md
+    notes: Reflective essay on how AI changes software and product work across search, copilots, project-level editing, and agentic coding, while leaving communication, judgment, ownership, and trust as the enduring scarce human capabilities.
+  - path: raw/ai/2026-05-09-agent-skills-teams-architecture-evolution-selection-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Z8JYgxUdHSLo4ywgyt4ljg
+    source_type: webclip
+    canonical_topic: agent-skills-teams-architecture-evolution-selection
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/agent-skills-teams-architecture-evolution-selection.md
+    notes: Architecture-selection article framing agent evolution as a response to weak domain knowledge injection and long-term memory, then recommending an upgrade path from single agents to skills, multi-agent systems, and finally agent teams only for highly exploratory tasks.
+  - path: raw/ai/2026-05-09-openclaw-architecture-implementation-part1-webclip.md
+    source_url: https://mp.weixin.qq.com/s/wVcItgqsCiwl9-PZ56z27w
+    source_type: webclip
+    canonical_topic: openclaw-architecture-implementation-part1
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/openclaw-architecture-implementation-part1.md
+    notes: Technical teardown of OpenClaw as a local-first personal assistant system centered on a gateway control plane, event-driven Pi agent runtime, multi-channel/device connectivity, and integrated sandbox/security boundaries.
+  - path: raw/ai/2026-05-09-engineering-knowledge-engine-harness-foundation-webclip.md
+    source_url: https://mp.weixin.qq.com/s/0U12C9yQ42vKQI6G-2dVnA
+    source_type: webclip
+    canonical_topic: engineering-knowledge-engine-harness-foundation
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/engineering-knowledge-engine-harness-foundation.md
+    notes: Harness-engineering article detailing a multi-source engineering knowledge layer for AI coding agents, spanning vector search, code graph, commit graph, RepoWiki, memory, and agentic search as a coordinated context engine.
+  - path: raw/ai/2026-05-09-enterprise-agent-multi-agent-architecture-selection-guide-webclip.md
+    source_url: https://mp.weixin.qq.com/s/_bz8DEgp4Lqt-xTa_lWN0A
+    source_type: webclip
+    canonical_topic: enterprise-agent-multi-agent-architecture-selection-guide
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/enterprise-agent-multi-agent-architecture-selection-guide.md
+    notes: Enterprise-focused multi-agent selection guide mapping common patterns such as pipeline, routing, skills, subagents, supervisor, handoffs, and custom workflows to business complexity thresholds and implementation choices in the AgentScope / Spring AI Alibaba ecosystem.
+  - path: raw/ai/2026-05-09-business-logic-collapse-ai-agent-era-what-to-build-webclip.md
+    source_url: https://mp.weixin.qq.com/s/kVE6an0dqnO34SQnRXddWg
+    source_type: webclip
+    canonical_topic: business-logic-collapse-ai-agent-era-what-to-build
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/business-logic-collapse-ai-agent-era-what-to-build.md
+    notes: Reflective architecture article arguing that in the agent era, traditional application-layer business logic thins into context assembly, state management, tool orchestration, and governance, while LangChain's deeper value lies in standardizing semantic components rather than just workflows.
+  - path: raw/ai/2026-05-09-openclaw-architecture-implementation-part2-webclip.md
+    source_url: https://mp.weixin.qq.com/s/FUJEofqbK7vX-J64UX8Nkg
+    source_type: webclip
+    canonical_topic: openclaw-architecture-implementation-part2
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/openclaw-architecture-implementation-part2.md
+    notes: "Continuation of the OpenClaw architecture teardown, focusing on the production mechanics behind a personal agent OS: sandbox isolation, file-first memory with hybrid retrieval, skills loading, session/routing control, node pairing, trusted-operator security assumptions, and layered config governance."
+  - path: raw/ai/2026-05-09-harness-engineering-ai-democratization-webclip.md
+    source_url: https://mp.weixin.qq.com/s/h_bnt6YFaLHSDgKSoFb6SA
+    source_type: webclip
+    canonical_topic: harness-engineering-ai-democratization
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/harness-engineering-ai-democratization.md
+    notes: "Framing article arguing that as AI agency and customization move from model vendors to end users and teams, prompt and context engineering are no longer enough; harness engineering becomes the governance layer for constraints, feedback, entropy control, and environment design."
+  - path: raw/ai/2026-05-09-agentic-os-first-agent-oriented-operating-system-webclip.md
+    source_url: https://mp.weixin.qq.com/s/1YaymfF3E-8MbdwOy_Ov_g
+    source_type: webclip
+    canonical_topic: agentic-os-first-agent-oriented-operating-system
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/agentic-os-first-agent-oriented-operating-system.md
+    notes: "Platform-launch article framing Agentic OS as a host environment for agent workloads, with built-in skills, Copilot Shell, token observability, runtime isolation, and AgentSecCore security features moved down to the OS layer."
+  - path: raw/ai/2026-05-09-progressive-spec-ai-coding-practice-guide-webclip.md
+    source_url: https://mp.weixin.qq.com/s/7Lgb3GfgXKI0J9L9e9sq0w
+    source_type: webclip
+    canonical_topic: progressive-spec-ai-coding-practice-guide
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/progressive-spec-ai-coding-practice-guide.md
+    notes: "Practice-heavy article proposing a progressive Spec workflow that scales process weight with task complexity, combines repo rules, change-specific specs, reviewer agents, and a two-layer planner/executor AI architecture to reduce accidental process overhead in AI coding."
+  - path: raw/ai/2026-05-09-qoder-harness-engineering-guide-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Et3WwNtEXEgxjaQHrQFDyQ
+    source_type: webclip
+    canonical_topic: qoder-harness-engineering-guide
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/qoder-harness-engineering-guide.md
+    notes: "Practice guide that operationalizes harness engineering inside a repository through a short AGENTS index, layered docs, dependency/quality lint scripts, pre-action validation, unified validate pipelines, verify skills, and execution traces as the agent-facing operating system."
+  - path: raw/ai/2026-05-09-memory-architecture-ledger-views-policy-webclip.md
+    source_url: https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q
+    source_type: webclip
+    canonical_topic: memory-architecture-ledger-views-policy
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/memory-architecture-ledger-views-policy.md
+    notes: "Theory-heavy memory architecture essay framing agent memory as a closed-loop system of append-only raw ledger, derived retrieval views, and explicit policy control, with a System 1 / System 2 split and a long-term goal of making non-parametric memory approximate parametric memory capability."
+  - path: raw/ai/2026-05-09-openclaw-practice-six-agents-mac-webclip.md
+    source_url: https://mp.weixin.qq.com/s/S6XKuXHa4QqZ_qno1yGIFQ
+    source_type: webclip
+    canonical_topic: openclaw-practice-six-agents-mac
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/openclaw-practice-six-agents-mac.md
+    notes: "Hands-on operations article showing how an OpenClaw-based personal agent system evolves into a continuously running multi-agent team through cron orchestration, ACP coding delegation, layered memory promotion, self-improvement hooks, and daily ops/maintenance routines."
+  - path: raw/ai/2026-05-09-claude-code-source-runtime-multi-agent-webclip.md
+    source_url: https://mp.weixin.qq.com/s/VHVZV0rrCxYkbrxjuQzIAQ
+    source_type: webclip
+    canonical_topic: claude-code-source-runtime-multi-agent
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/claude-code-source-runtime-multi-agent.md
+    notes: "Claude Code teardown focused on the runtime spine behind a production coding agent: staged bootstrap, REPL as control plane, query loop as state machine, tool runtime and permissions as execution chain, plus task/subagent/MCP/plugin extension layering."
+  - path: raw/ai/2026-05-09-openclaw-long-term-memory-pipeline-stability-webclip.md
+    source_url: https://mp.weixin.qq.com/s/pLqKTe1J2FkiiquoT4dOJA
+    source_type: webclip
+    canonical_topic: openclaw-long-term-memory-pipeline-stability
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/openclaw-long-term-memory-pipeline-stability.md
+    notes: "OpenClaw memory analysis covering daily-memory writes, MEMORY.md promotion, Dreaming's three-stage consolidation path, and why a file-first long-term memory pipeline can still produce unstable, 'mystical' behavior without stronger deterministic policy."
+  - path: raw/ai/2026-05-09-openclaw-prompt-context-harness-philosophy-webclip.md
+    source_url: https://mp.weixin.qq.com/s/JycTfNd7EnmWCnJK-QCf0Q
+    source_type: webclip
+    canonical_topic: openclaw-prompt-context-harness-philosophy
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/openclaw-prompt-context-harness-philosophy.md
+    notes: "Methodology article using OpenClaw to connect three layers of modern agent design: dynamic prompt assembly, context layering and lifecycle management, and harness engineering as the runtime environment that makes long-running agents controllable."
+  - path: raw/ai/2026-05-09-chat-window-to-multi-agent-console-collaboration-shift-webclip.md
+    source_url: https://mp.weixin.qq.com/s/0vIHvlZCdq2TZ1OBGUgW3w
+    source_type: webclip
+    canonical_topic: chat-window-to-multi-agent-console-collaboration-shift
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/chat-window-to-multi-agent-console-collaboration-shift.md
+    notes: "Workflow-design article arguing that AI coding is moving from single-agent chat threads to a multi-agent control-console model centered on task decomposition, review, allowed path boundaries, lightweight file claims, and observer-style runtime coordination."
+  - path: raw/ai/2026-05-09-mini-claude-vibe-coding-rebuild-webclip.md
+    source_url: https://mp.weixin.qq.com/s/IUjdKUcPKZrBE7GZZnQG-w
+    source_type: webclip
+    canonical_topic: mini-claude-vibe-coding-rebuild
+    ingested: true
+    ingested_date: 2026-05-09
+    wiki_pages:
+      - wiki/ai/mini-claude-vibe-coding-rebuild.md
+    notes: "Beginner-friendly build log for a lightweight 'Mini-Claude' coding agent, walking through the minimum stack of LLM API wiring, tool execution, session/message management, tool loop orchestration, CLI interaction, and session observability via logs/dashboard."
+  - path: raw/ai/2026-05-10-ai-agent-harness-engineering-real-projects-webclip.md
+    source_url: https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA
+    source_type: webclip
+    canonical_topic: ai-agent-harness-engineering-real-projects
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/ai-agent-harness-engineering-real-projects.md
+    notes: "Harness-engineering article using the Aegis project to distinguish deterministic software engineering from governance for probabilistic agents, define anti-patterns such as fake harness / low-quality harness, and frame the engineer's role shift toward boundary-setting, pacing, and evidence-based acceptance."
+  - path: raw/ai/2026-05-10-claude-code-prompt-context-harness-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/YgGW92VBP8s846yzIxjVWQ
+    source_type: webclip
+    canonical_topic: claude-code-prompt-context-harness-practice
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/claude-code-prompt-context-harness-practice.md
+    notes: "Claude Code analysis organized around prompt, context, and harness engineering: dynamic system-prompt assembly, CLAUDE.md as layered project context, progressive context-compaction patterns, and delegated-agent prompting as a communication protocol rather than a mere subagent switch."
+  - path: raw/ai/2026-05-10-spec-driven-development-redefining-ai-coding-webclip-v2.md
+    source_url: https://mp.weixin.qq.com/s/hVizUucsy8rwFOUR-VZ6wA
+    source_type: webclip
+    canonical_topic: spec-driven-development-redefining-ai-coding
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/spec-driven-development-redefining-ai-coding.md
+    notes: Duplicate web clip of the existing SDD article; archived as an additional source, not re-ingested as a separate topic.
+  - path: raw/ai/2026-05-10-agent-productivity-paradox-collaboration-bottleneck-webclip.md
+    source_url: https://mp.weixin.qq.com/s/GPoQnFsXnnNpKdefWWiKRw
+    source_type: webclip
+    canonical_topic: agent-productivity-paradox-collaboration-bottleneck
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/agent-productivity-paradox-collaboration-bottleneck.md
+    notes: "Organization-level analysis arguing that in the agent era the real bottleneck shifts from code generation speed to collaboration structure, fragmented information systems, and release-chain discontinuities, with 'all-in-code' and versioned everything proposed as the remedy."
+  - path: raw/ai/2026-05-10-ai-coding-rate-90-harness-engineering-webclip.md
+    source_url: https://mp.weixin.qq.com/s/rlIyIIZOXFObNIXbPI7gDg
+    source_type: webclip
+    canonical_topic: ai-coding-rate-90-harness-engineering
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/ai-coding-rate-90-harness-engineering.md
+    notes: "Enterprise Java case study detailing a harness stack of rules, skills, wiki, and changes to push AI coding participation from roughly one quarter of code to near-total coverage while keeping quality under control."
+  - path: raw/ai/2026-05-10-agents-md-practice-guide-webclip.md
+    source_url: https://mp.weixin.qq.com/s/fBBBSfQajYjYtngZAitZCA
+    source_type: webclip
+    canonical_topic: agents-md-practice-guide
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/agents-md-practice-guide.md
+    notes: "Practical AGENTS.md guide emphasizing map-not-manual, monorepo-friendly context, source-code-as-documentation for private component systems, and the broader idea that AGENTS.md only works when paired with an AI-friendly repository structure."
+  - path: raw/ai/2026-05-10-agent-principles-architecture-engineering-practice-webclip.md
+    source_url: https://mp.weixin.qq.com/s/cIQYl9Wr1Eov4ma-_bYh-w
+    source_type: webclip
+    canonical_topic: agent-principles-architecture-engineering-practice
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/agent-principles-architecture-engineering-practice.md
+    notes: "Broad survey article connecting agent loop design, workflow-vs-agent distinctions, common control patterns, context layering, prompt caching, evaluation, observability, and harness engineering into a unified engineering picture."
+  - path: raw/ai/2026-05-10-team-ai-rd-harness-sdd-evolution-webclip.md
+    source_url: https://mp.weixin.qq.com/s/-_IBJFuXpvoqMJxL9oaEJQ
+    source_type: webclip
+    canonical_topic: team-ai-rd-harness-sdd-evolution
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/team-ai-rd-harness-sdd-evolution.md
+    notes: "Team-level AI R&D adoption article arguing that rising AI code generation ratios do not automatically shorten delivery cycles, and that SDD plus harness governance must be pulled through the entire chain from PRD to deployment."
+  - path: raw/ai/2026-05-10-hermes-agent-self-improving-source-webclip.md
+    source_url: https://mp.weixin.qq.com/s/Qi68ptxQRyiA932JU49SYQ
+    source_type: webclip
+    canonical_topic: hermes-agent-self-improving-source
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/hermes-agent-self-improving-source.md
+    notes: "Source-based teardown of Hermes Agent's self-improving loop, covering constrained long-term memory, declarative memory-vs-skill boundaries, skill auto-creation and patching, and progressive skill loading as an alternative to heavier file-first assistant systems."
+  - path: raw/ai/anthropic/engineering/2026-05-10-a-postmortem-of-three-recent-issues-webclip.md
+    source_url: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+    source_type: webclip
+    canonical_topic: a-postmortem-of-three-recent-issues
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/a-postmortem-of-three-recent-issues.md
+    notes: "Anthropic Engineering postmortem covering three overlapping Claude serving issues across context routing, output corruption, and XLA/TPU miscompilation."
+  - path: raw/ai/anthropic/engineering/2026-05-10-best-practices-for-claude-code-webclip.md
+    source_url: https://code.claude.com/docs/en/best-practices
+    source_type: webclip
+    canonical_topic: best-practices-for-claude-code
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/best-practices-for-claude-code.md
+    notes: "Official Claude Code best-practices guide centered on exploration, planning, validation loops, environment setup, and effective CLAUDE.md usage."
+  - path: raw/ai/anthropic/engineering/2026-05-10-building-a-c-compiler-with-a-team-of-parallel-claudes-webclip.md
+    source_url: https://www.anthropic.com/engineering/building-c-compiler
+    source_type: webclip
+    canonical_topic: building-a-c-compiler-with-a-team-of-parallel-claudes
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/building-a-c-compiler-with-a-team-of-parallel-claudes.md
+    notes: "Parallel-agent engineering case study using teams of Claudes to build a C compiler, highlighting tests, task boundaries, and parallel execution patterns."
+  - path: raw/ai/anthropic/engineering/2026-05-10-building-agents-with-the-claude-agent-sdk-webclip.md
+    source_url: https://claude.com/blog/building-agents-with-the-claude-agent-sdk
+    source_type: webclip
+    canonical_topic: building-agents-with-the-claude-agent-sdk
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/building-agents-with-the-claude-agent-sdk.md
+    notes: "Claude Agent SDK guide covering agent loops, tool use, file-system context, search, and how the SDK packages agent runtime primitives."
+  - path: raw/ai/anthropic/engineering/2026-05-10-building-effective-ai-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/building-effective-agents
+    source_type: webclip
+    canonical_topic: building-effective-ai-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/building-effective-ai-agents.md
+    notes: "Anthropic's agent-engineering overview article, distinguishing workflows from agents and organizing common control patterns around augmented LLM building blocks."
+  - path: raw/ai/anthropic/engineering/2026-05-10-claude-code-auto-mode-a-safer-way-to-skip-permissions-webclip.md
+    source_url: https://www.anthropic.com/engineering/claude-code-auto-mode
+    source_type: webclip
+    canonical_topic: claude-code-auto-mode-a-safer-way-to-skip-permissions
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/claude-code-auto-mode-a-safer-way-to-skip-permissions.md
+    notes: "Claude Code security article on auto mode, describing classifier-based permission decisions and safer autonomy through structured risk criteria."
+  - path: raw/ai/anthropic/engineering/2026-05-10-claude-desktop-extensions-one-click-mcp-server-installation-for-claude-desktop-webclip.md
+    source_url: https://www.anthropic.com/engineering/desktop-extensions
+    source_type: webclip
+    canonical_topic: claude-desktop-extensions-one-click-mcp-server-installation-for-claude-desktop
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/claude-desktop-extensions-one-click-mcp-server-installation-for-claude-desktop.md
+    notes: "Anthropic product article on one-click MCP server installation for Claude Desktop, reducing integration and distribution friction."
+  - path: raw/ai/anthropic/engineering/2026-05-10-claude-swe-bench-performance-webclip.md
+    source_url: https://www.anthropic.com/engineering/swe-bench-sonnet
+    source_type: webclip
+    canonical_topic: claude-swe-bench-performance
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/claude-swe-bench-performance.md
+    notes: "Anthropic's SWE-Bench performance note emphasizing the role of tool-using agents and harness design in coding benchmark results."
+  - path: raw/ai/anthropic/engineering/2026-05-10-code-execution-with-mcp-building-more-efficient-ai-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/code-execution-with-mcp
+    source_type: webclip
+    canonical_topic: code-execution-with-mcp-building-more-efficient-ai-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/code-execution-with-mcp-building-more-efficient-ai-agents.md
+    notes: "Tool-design article showing how MCP-based code execution reduces context overhead from tool definitions and intermediate tool results."
+  - path: raw/ai/anthropic/engineering/2026-05-10-contextual-retrieval-in-ai-systems-webclip.md
+    source_url: https://www.anthropic.com/engineering/contextual-retrieval
+    source_type: webclip
+    canonical_topic: contextual-retrieval-in-ai-systems
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/contextual-retrieval-in-ai-systems.md
+    notes: "Anthropic retrieval article introducing Contextual Retrieval to address chunk-level context loss in traditional RAG systems."
+  - path: raw/ai/anthropic/engineering/2026-05-10-demystifying-evals-for-ai-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+    source_type: webclip
+    canonical_topic: demystifying-evals-for-ai-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/demystifying-evals-for-ai-agents.md
+    notes: "Official Anthropic evals primer covering evaluation structure, grader choices, capability vs regression evals, and why agents need dedicated eval infrastructure."
+  - path: raw/ai/anthropic/engineering/2026-05-10-designing-ai-resistant-technical-evaluations-webclip.md
+    source_url: https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+    source_type: webclip
+    canonical_topic: designing-ai-resistant-technical-evaluations
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/designing-ai-resistant-technical-evaluations.md
+    notes: "Article on rethinking take-home technical evaluations under strong-model conditions and designing assessments that remain informative in the AI era."
+  - path: raw/ai/anthropic/engineering/2026-05-10-effective-context-engineering-for-ai-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+    source_type: webclip
+    canonical_topic: effective-context-engineering-for-ai-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/effective-context-engineering-for-ai-agents.md
+    notes: "Anthropic's context-engineering overview, covering retrieval, context anatomy, long-horizon tasks, and the difference between prompt engineering and context engineering."
+  - path: raw/ai/anthropic/engineering/2026-05-10-effective-harnesses-for-long-running-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+    source_type: webclip
+    canonical_topic: effective-harnesses-for-long-running-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/effective-harnesses-for-long-running-agents.md
+    notes: "Core Anthropic harness article describing environment management, incremental progress, testing, and onboarding mechanics for long-running agents."
+  - path: raw/ai/anthropic/engineering/2026-05-10-equipping-agents-for-the-real-world-with-agent-skills-webclip.md
+    source_url: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+    source_type: webclip
+    canonical_topic: equipping-agents-for-the-real-world-with-agent-skills
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/equipping-agents-for-the-real-world-with-agent-skills.md
+    notes: "Anthropic skills article explaining the anatomy of a skill, progressive loading, evaluation, and why skills are a key answer to context-window limits."
+  - path: raw/ai/anthropic/engineering/2026-05-10-eval-awareness-in-claude-opus-4-6s-browsecomp-performance-webclip.md
+    source_url: https://www.anthropic.com/engineering/eval-awareness-browsecomp
+    source_type: webclip
+    canonical_topic: eval-awareness-in-claude-opus-4-6-browsecomp-performance
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/eval-awareness-in-claude-opus-4-6-browsecomp-performance.md
+    notes: "Anthropic article on benchmark contamination and eval-awareness risks in BrowseComp, especially under stronger models and multi-agent setups."
+  - path: raw/ai/anthropic/engineering/2026-05-10-harness-design-for-long-running-application-development-webclip.md
+    source_url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+    source_type: webclip
+    canonical_topic: harness-design-for-long-running-application-development
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/harness-design-for-long-running-application-development.md
+    notes: "Application-development-focused harness article covering full-stack grading, runtime orchestration, and iterative harness refinement for long tasks."
+  - path: raw/ai/anthropic/engineering/2026-05-10-how-we-built-our-multi-agent-research-system-webclip.md
+    source_url: https://www.anthropic.com/engineering/multi-agent-research-system
+    source_type: webclip
+    canonical_topic: how-we-built-our-multi-agent-research-system
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/how-we-built-our-multi-agent-research-system.md
+    notes: "Anthropic's multi-agent research-system architecture note covering prompt design, evaluation, and production reliability for research workflows."
+  - path: raw/ai/anthropic/engineering/2026-05-10-introducing-advanced-tool-use-on-the-claude-developer-platform-webclip.md
+    source_url: https://www.anthropic.com/engineering/advanced-tool-use
+    source_type: webclip
+    canonical_topic: introducing-advanced-tool-use-on-the-claude-developer-platform
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/introducing-advanced-tool-use-on-the-claude-developer-platform.md
+    notes: "Claude Developer Platform article introducing Tool Search Tool and Programmatic Tool Calling as higher-level tool-discovery and tool-management capabilities."
+  - path: raw/ai/anthropic/engineering/2026-05-10-making-claude-code-more-secure-and-autonomous-with-sandboxing-webclip.md
+    source_url: https://www.anthropic.com/engineering/claude-code-sandboxing
+    source_type: webclip
+    canonical_topic: making-claude-code-more-secure-and-autonomous-with-sandboxing
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/making-claude-code-more-secure-and-autonomous-with-sandboxing.md
+    notes: "Claude Code security article explaining sandboxing as the mechanism that makes higher autonomy compatible with stronger safety boundaries."
+  - path: raw/ai/anthropic/engineering/2026-05-10-quantifying-infrastructure-noise-in-agentic-coding-evals-webclip.md
+    source_url: https://www.anthropic.com/engineering/infrastructure-noise
+    source_type: webclip
+    canonical_topic: quantifying-infrastructure-noise-in-agentic-coding-evals
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/quantifying-infrastructure-noise-in-agentic-coding-evals.md
+    notes: "Anthropic eval-infrastructure note showing how environmental and infrastructure noise can distort coding benchmark interpretation."
+  - path: raw/ai/anthropic/engineering/2026-05-10-scaling-managed-agents-decoupling-the-brain-from-the-hands-webclip.md
+    source_url: https://www.anthropic.com/engineering/managed-agents
+    source_type: webclip
+    canonical_topic: scaling-managed-agents-decoupling-the-brain-from-the-hands
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/scaling-managed-agents-decoupling-the-brain-from-the-hands.md
+    notes: "Managed-agents architecture article centered on separating high-level reasoning from lower-level execution sessions to scale agent systems."
+  - path: raw/ai/anthropic/engineering/2026-05-10-the-think-tool-enabling-claude-to-stop-and-think-webclip.md
+    source_url: https://www.anthropic.com/engineering/claude-think-tool
+    source_type: webclip
+    canonical_topic: the-think-tool-enabling-claude-to-stop-and-think
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/the-think-tool-enabling-claude-to-stop-and-think.md
+    notes: "Tool-augmented reasoning article explaining the explicit 'think' tool and when structured pauses improve benchmark and task performance."
+  - path: raw/ai/anthropic/engineering/2026-05-10-writing-effective-tools-for-ai-agentsusing-ai-agents-webclip.md
+    source_url: https://www.anthropic.com/engineering/writing-tools-for-agents
+    source_type: webclip
+    canonical_topic: writing-effective-tools-for-ai-agents-using-ai-agents
+    ingested: true
+    ingested_date: 2026-05-10
+    wiki_pages:
+      - wiki/ai/writing-effective-tools-for-ai-agents-using-ai-agents.md
+    notes: "Anthropic tool-design methodology article covering tool prototyping, evaluation, collaboration with agents, and principles for high-quality tool interfaces."

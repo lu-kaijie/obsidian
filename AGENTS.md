@@ -142,6 +142,16 @@ wiki/
 └── health/
 ```
 
+## 来源分层规则
+
+- `raw/ai/` 是 AI 资料默认归档区
+- 当资料来源满足“官方一手、连续系列、长期追踪”时，可在 `raw/ai/` 下按来源分层
+- 当前已确定采用来源分层的目录：
+  - `raw/ai/anthropic/research/`
+  - `raw/ai/anthropic/engineering/`
+- 其他零散来源暂不单独建来源目录，继续放在 `raw/ai/`
+- `wiki/` 仍按主题组织，不按来源组织
+
 ## 链接摄入流程
 
 用户发送 URL 时：

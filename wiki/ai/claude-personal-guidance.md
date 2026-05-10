@@ -1,6 +1,6 @@
 ---
 tags: [摘要, ai]
-sources: [raw/ai/2026-05-07-claude-personal-guidance-webclip.md]
+sources: [raw/ai/anthropic/research/2026-05-07-claude-personal-guidance-webclip.md]
 updated: 2026-05-07
 ---
 

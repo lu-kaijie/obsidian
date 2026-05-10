@@ -1,12 +1,8 @@
 ---
-title: "How people ask Claude for personal guidance"
-source: "https://www.anthropic.com/research/claude-personal-guidance"
-author:
-published:
-created: 2026-05-07
-description: "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-tags:
-  - "clippings"
+title: How people ask Claude for personal guidance
+source_url: https://www.anthropic.com/research/claude-personal-guidance
+saved: 2026-05-07
+tags: [ai]
 ---
 2026年4月30日
 

@@ -1,12 +1,8 @@
 ---
-title: "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench"
-source: "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
-author:
-published:
-created: 2026-05-07
-description: "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-tags:
-  - "clippings"
+title: Evaluating Claude's bioinformatics research capabilities with BioMysteryBench
+source_url: https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench
+saved: 2026-05-07
+tags: [ai]
 ---
 2026年4月29日
 
