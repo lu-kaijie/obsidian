@@ -1,6 +1,6 @@
 ---
 tags: [概览]
-updated: 2026-05-10
+updated: 2026-05-13
 ---
 
 # Wiki 概览
@@ -10,14 +10,14 @@ updated: 2026-05-10
 ## 当前状态
 
 - **主题数**：2（AI、知识管理）
-- **Wiki 页面数**：78
-- **AI 页面数**：76
-- **已摄入资料数**：78
-- **最后更新**：2026-05-10
+- **Wiki 页面数**：87
+- **AI 页面数**：79
+- **已摄入资料数**：81
+- **最后更新**：2026-05-13
 
 ## 主题地图
 
-### AI（76 篇）
+### AI（79 篇）
 
 #### 1. Harness / Agent-first 工程
 
@@ -51,6 +51,7 @@ updated: 2026-05-10
 - [[wiki/ai/building-agents-with-the-claude-agent-sdk|用 Claude Agent SDK 构建 Agents]] — 从 SDK 视角拆解 agent loop、工具注册、状态管理与工程接线方式
 - [[wiki/ai/claude-code-qoder-cli-advanced-practice|Claude Code 与 Qoder CLI 的工作流抽象]] — 从 Command、Subagent、Skills、Hooks 到 PTC 的 CLI 控制面拆解
 - [[wiki/ai/claude-code-prompt-context-harness-practice|Claude Code 的 Prompt / Context / Harness 设计实践]] — 从动态提示词装配、CLAUDE.md 分层上下文到渐进式压缩与委派协议，解释 Claude Code 的工程增益来自哪里
+- [[wiki/ai/claude-code-skills-source-analysis|Claude Code 的 skills 源码解析]] — 从加载链路、条件激活和 frontmatter 声明解释 skill 如何被扫描、激活并注入 Claude Code runtime
 - [[wiki/ai/best-practices-for-claude-code|Claude Code 最佳实践]] — Anthropic 官方使用指南，强调探索、计划、执行与验证闭环
 - [[wiki/ai/the-think-tool-enabling-claude-to-stop-and-think|Think Tool]] — 通过显式“停下来想一想”的工具调用，为复杂任务提供额外推理缓冲层
 - [[wiki/ai/agents-md-practice-guide|AGENTS.md 实践指南]] — 把 AGENTS.md 讲成项目导航地图而非百科全书，并给出 monorepo 与私域源码友好化实践
@@ -61,6 +62,7 @@ updated: 2026-05-10
 - [[wiki/ai/agent-skills-teams-architecture-evolution-selection|Agent / Skills / Teams 的架构选型]] — 从单智能体一路升级到技能、多智能体和 agent teams 的演进顺序
 - [[wiki/ai/enterprise-agent-multi-agent-architecture-selection-guide|企业级多智能体架构选型]] — 将 Pipeline、Routing、Skills、Subagents、Supervisor、Handoffs 映射到企业场景
 - [[wiki/ai/how-we-built-our-multi-agent-research-system|Anthropic 多 Agent 研究系统]] — 展示研究型多智能体系统如何分工、调度与合并结果
+- [[wiki/ai/production-multi-agent-harness-architecture-eval-memory-cost-mcp|生产级 Multi-Agent Harness 全拆解]] — 从控制面、Tool Registry、状态分层、轨迹评估到预算闸门，系统化拆开多 Agent 生产底座
 
 #### 4. Memory / 上下文 / 知识层
 
@@ -71,6 +73,7 @@ updated: 2026-05-10
 - [[wiki/ai/effective-context-engineering-for-ai-agents|高效上下文工程]] — Anthropic 对 context engineering 的官方总纲
 - [[wiki/ai/contextual-retrieval-in-ai-systems|Contextual Retrieval]] — 通过给检索块补上下文来提升 RAG 命中质量
 - [[wiki/ai/spec-rag-ai-programmer-knowledge-infra|Spec + RAG 的 AI 程序员知识基础设施]] — 用 Spec、RAG、MCP 组织项目级知识与外部能力
+- [[wiki/ai/llm-wiki-obsidian-wiki-gbrain-knowledge-evolution|LLM Wiki / Obsidian-Wiki / GBrain]] — 用“编译式知识系统”视角解释 raw→wiki→schema 的知识工程范式
 
 #### 5. Runtime / OS / 推理与沙箱基础设施
 
@@ -117,6 +120,15 @@ updated: 2026-05-10
 ### 知识管理（1 篇）
 
 - [[wiki/知识管理-最佳实践|知识管理最佳实践]] — 如何让个人知识库真正发挥作用，避免只存入不取出
+
+### 主题综述 / 面试资料（6 篇）
+
+- [[wiki/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
+- [[wiki/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
+- [[wiki/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 的分层关系
+- [[wiki/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 压缩评测、事故、权限、sandbox 与生产治理主线
+- [[wiki/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
+- [[wiki/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
 
 ## 跨主题联系
 

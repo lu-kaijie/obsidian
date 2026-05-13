@@ -103,3 +103,4 @@
 ## [2026-05-13] ingest | Claude Code 的 skills 源码解析
 ## [2026-05-13] ingest | 从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解
 ## [2026-05-13] ingest | 深度解析LLM Wiki / Obsidian-Wiki / GBrain：Agent时代知识的“自组织”与“自进化”
+## [2026-05-13] lint | 刷新 overview 统计到 87 页 / 81 sources，补入 3 篇新 AI 页与 6 篇主题综述入口，消除 4 个零入链页面并复核 ingest-state YAML 可解析
