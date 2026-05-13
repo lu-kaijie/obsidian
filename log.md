@@ -97,3 +97,9 @@
 ## [2026-05-10] ingest | Writing effective tools for AI agents—using AI agents
 ## [2026-05-10] lint | 忽略 Clippings 新批次，仅刷新 overview 统计与主题地图，补入 5 个近期新增 AI 页面并消除零入链，复核 ingest-state YAML 可解析
 ## [2026-05-10] lint | 完成 Anthropic engineering 批次摄入后的健康检查：overview 已补齐交叉引用，孤页 0，ingest-state YAML 可解析，Clippings 已清空，资料与页面计数一致
+## [2026-05-12] query | 基于知识库整理 Agent 应用开发 / 大模型应用开发面试八股手册
+## [2026-05-12] query | 通读 wiki 后按主题重组：生成 Agent 运行时、Context/Harness、Eval/Security、企业平台转向四篇综述
+## [2026-05-13] query | 基于四篇主题综述扩写 Agent 应用开发面试长篇总复习册
+## [2026-05-13] ingest | Claude Code 的 skills 源码解析
+## [2026-05-13] ingest | 从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解
+## [2026-05-13] ingest | 深度解析LLM Wiki / Obsidian-Wiki / GBrain：Agent时代知识的“自组织”与“自进化”

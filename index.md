@@ -88,10 +88,19 @@ _暂无_
 - [[wiki/ai/scaling-managed-agents-decoupling-the-brain-from-the-hands|Managed Agents：解耦 brain 与 hands]] — 通过分离高层推理和低层执行来扩展 agent runtime
 - [[wiki/ai/the-think-tool-enabling-claude-to-stop-and-think|\"think\" tool]] — 把显式思考停顿外显成运行时工具，而不只是提示词技巧
 - [[wiki/ai/writing-effective-tools-for-ai-agents-using-ai-agents|写好 Agent 工具]] — 从工具定义、原型、评测到迭代，系统讨论 tool 设计方法论
+- [[wiki/ai/claude-code-skills-source-analysis|Claude Code 的 skills 源码解析]] — 从加载链路、条件激活和 frontmatter 声明解释 skill 为什么是 Claude Code runtime 的一级能力构件
+- [[wiki/ai/production-multi-agent-harness-architecture-eval-memory-cost-mcp|生产级 Multi-Agent Harness 全拆解]] — 把多 Agent 生产化问题收敛到控制面、Tool Registry、状态分层、轨迹评估和预算闸门
+- [[wiki/ai/llm-wiki-obsidian-wiki-gbrain-knowledge-evolution|LLM Wiki / Obsidian-Wiki / GBrain]] — 用“编译式知识系统”视角解释当前 wiki 这类 raw→wiki→schema 三层知识工程范式
 
 ## 综合分析
 
 - [[wiki/知识管理-最佳实践|知识管理最佳实践]] — 如何让个人知识库真正发挥作用，避免只存入不取出
+- [[wiki/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 基于当前知识库压缩出的面试作战手册，覆盖 Agent、RAG、Memory、Tool Use、Eval、Sandbox、Claude Code 与 Python 工程落地
+- [[wiki/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 压缩全库中关于 workflow、runtime、Claude Code、OpenClaw 与多智能体选型的主线
+- [[wiki/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 与 repo 级知识分层
+- [[wiki/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 总结评测、badcase、benchmark 噪声、sandbox、权限与生产事故主线
+- [[wiki/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、业务逻辑迁移、平台层膨胀、协作瓶颈与组织转型
+- [[wiki/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 基于四篇主题综述与面试手册重排出的总复习册，按概念题、架构题、系统设计题与开放题组织
 
 ## 特殊页面
 

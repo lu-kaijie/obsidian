@@ -701,3 +701,30 @@ sources:
     wiki_pages:
       - wiki/ai/writing-effective-tools-for-ai-agents-using-ai-agents.md
     notes: "Anthropic tool-design methodology article covering tool prototyping, evaluation, collaboration with agents, and principles for high-quality tool interfaces."
+  - path: raw/ai/2026-05-13-claude-code-skills-source-analysis-webclip.md
+    source_url: https://juejin.cn/post/7625838952655912994?share_token=d88b9cf0-a5d8-407e-ac1d-d26859c143b3
+    source_type: webclip
+    canonical_topic: claude-code-skills-source-analysis
+    ingested: true
+    ingested_date: 2026-05-13
+    wiki_pages:
+      - wiki/ai/claude-code-skills-source-analysis.md
+    notes: "Source-code walkthrough of Claude Code skills, covering bundled and disk-loaded skills, frontmatter fields, conditional activation, and runtime prompt injection."
+  - path: raw/ai/2026-05-13-production-multi-agent-harness-architecture-eval-memory-cost-mcp-webclip.md
+    source_url: https://mp.weixin.qq.com/s/JPhcyDc4JwRmnMQ-76A-FQ
+    source_type: webclip
+    canonical_topic: production-multi-agent-harness-architecture-eval-memory-cost-mcp
+    ingested: true
+    ingested_date: 2026-05-13
+    wiki_pages:
+      - wiki/ai/production-multi-agent-harness-architecture-eval-memory-cost-mcp.md
+    notes: "Long-form architecture article defining production multi-agent harnesses across orchestration, tool governance, state and memory, evaluation, budget control, and MCP integration."
+  - path: raw/ai/2026-05-13-llm-wiki-obsidian-wiki-gbrain-self-organizing-self-evolving-knowledge-webclip.md
+    source_url: https://mp.weixin.qq.com/s/48XpgAMHeaKYj26PrJK-hw
+    source_type: webclip
+    canonical_topic: llm-wiki-obsidian-wiki-gbrain-knowledge-evolution
+    ingested: true
+    ingested_date: 2026-05-13
+    wiki_pages:
+      - wiki/ai/llm-wiki-obsidian-wiki-gbrain-knowledge-evolution.md
+    notes: "Knowledge-engineering article explaining LLM Wiki, Obsidian-Wiki, and GBrain as a compiled, incrementally maintained wiki system rather than query-time-only RAG."
