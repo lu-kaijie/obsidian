@@ -1,12 +1,16 @@
 ---
-tags: [分析, ai, interview, agents, llm, python, review]
-sources:
-  - wiki/agent-runtime-architecture-themes.md
-  - wiki/context-knowledge-harness-themes.md
-  - wiki/eval-reliability-security-themes.md
-  - wiki/enterprise-platform-shifts-themes.md
-  - wiki/agent-llm-application-interview-handbook.md
+title: Agent 应用开发面试长篇总复习册
+created: 2026-05-13
 updated: 2026-05-13
+tags: [分析, ai, interview, agents, llm, python, review]
+status: reviewed
+sources:
+  - notes/ai/agent-runtime-architecture-themes.md
+  - notes/ai/context-knowledge-harness-themes.md
+  - notes/ai/eval-reliability-security-themes.md
+  - notes/ai/enterprise-platform-shifts-themes.md
+  - notes/ai/agent-llm-application-interview-handbook.md
+wiki_pages: []
 ---
 
 # Agent 应用开发面试长篇总复习册
@@ -795,8 +799,8 @@ Eval、badcase、sandbox、permissions、observability、recovery。
 
 ## 关联页面
 
-- [[wiki/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]]
-- [[wiki/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]]
-- [[wiki/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]]
-- [[wiki/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]]
-- [[wiki/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]]
+- [[agent-runtime-architecture-themes|Agent 运行时与架构主题综述]]
+- [[context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]]
+- [[eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]]
+- [[enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]]
+- [[agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]]

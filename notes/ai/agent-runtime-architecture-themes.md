@@ -1,5 +1,9 @@
 ---
+title: Agent 运行时与架构主题综述
+created: 2026-05-12
+updated: 2026-05-12
 tags: [分析, ai, agents, runtime, architecture]
+status: reviewed
 sources:
   - wiki/overview.md
   - wiki/ai/building-effective-ai-agents.md
@@ -10,7 +14,7 @@ sources:
   - wiki/ai/openclaw-architecture-implementation-part2.md
   - wiki/ai/scaling-managed-agents-decoupling-the-brain-from-the-hands.md
   - wiki/ai/enterprise-agent-multi-agent-architecture-selection-guide.md
-updated: 2026-05-12
+wiki_pages: []
 ---
 
 # Agent 运行时与架构主题综述

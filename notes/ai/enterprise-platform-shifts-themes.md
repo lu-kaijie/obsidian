@@ -1,5 +1,9 @@
 ---
+title: 企业落地、平台中间层与方法论转向主题综述
+created: 2026-05-12
+updated: 2026-05-12
 tags: [分析, ai, enterprise, platform, product, methodology]
+status: reviewed
 sources:
   - wiki/overview.md
   - wiki/ai/enterprise-ai-application-building-guide.md
@@ -10,7 +14,7 @@ sources:
   - wiki/ai/ai-product-three-year-retrospective-change-and-constants.md
   - wiki/ai/agentic-os-first-agent-oriented-operating-system.md
   - wiki/ai/api-router-token-arbitrage.md
-updated: 2026-05-12
+wiki_pages: []
 ---
 
 # 企业落地、平台中间层与方法论转向主题综述

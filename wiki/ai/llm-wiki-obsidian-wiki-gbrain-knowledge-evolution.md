@@ -104,7 +104,7 @@ updated: 2026-05-13
 ## 与其他页面的关联
 
 - [[wiki/知识管理-最佳实践|知识管理最佳实践]] — 那篇讲为什么要多提问，这篇解释为什么这套 wiki 结构能支撑长期使用
-- [[wiki/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 这篇可以作为其中“知识基础设施”部分的具体样本页
+- [[context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 这篇可以作为其中“知识基础设施”部分的具体样本页
 - [[wiki/ai/spec-rag-ai-programmer-knowledge-infra|Spec + RAG 的 AI 程序员知识基础设施]] — 那篇讲项目知识供给层，这篇讲更广义的个人与团队 wiki 编译层
 - [[wiki/ai/agentscope-skills-progressive-disclosure|AgentScope Skills 与渐进式披露]] — 一篇偏能力包按需加载，一篇偏知识包按需加载
 - [[wiki/ai/openclaw-long-term-memory-pipeline-stability|OpenClaw 长期记忆：优秀管线与玄学效果]] — 都在讨论 file-first knowledge / memory system 的优点与边界

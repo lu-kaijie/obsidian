@@ -1,5 +1,9 @@
 ---
+title: Eval、可靠性与安全治理主题综述
+created: 2026-05-12
+updated: 2026-05-12
 tags: [分析, ai, eval, reliability, security, sandbox]
+status: reviewed
 sources:
   - wiki/overview.md
   - wiki/ai/demystifying-evals-for-ai-agents.md
@@ -11,7 +15,7 @@ sources:
   - wiki/ai/making-claude-code-more-secure-and-autonomous-with-sandboxing.md
   - wiki/ai/claude-code-auto-mode-a-safer-way-to-skip-permissions.md
   - wiki/ai/a-postmortem-of-three-recent-issues.md
-updated: 2026-05-12
+wiki_pages: []
 ---
 
 # Eval、可靠性与安全治理主题综述

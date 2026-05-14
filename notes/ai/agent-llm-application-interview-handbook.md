@@ -1,5 +1,9 @@
 ---
+title: Agent 应用开发 / 大模型应用开发面试八股手册
+created: 2026-05-12
+updated: 2026-05-12
 tags: [分析, ai, interview, agents, llm, python]
+status: reviewed
 sources:
   - wiki/ai/claude-code-source-runtime-multi-agent.md
   - wiki/ai/function-calling-mcp-skills-differences-practice.md
@@ -7,7 +11,7 @@ sources:
   - wiki/ai/building-effective-ai-agents.md
   - wiki/ai/demystifying-evals-for-ai-agents.md
   - wiki/ai/ai-agent-memory-systems-architecture-practice.md
-updated: 2026-05-12
+wiki_pages: []
 ---
 
 # Agent 应用开发 / 大模型应用开发面试八股手册
@@ -27,7 +31,7 @@ updated: 2026-05-12
 - 面试前快速复习时，先看 `核心结论` 和 `高频短答`
 - 遇到开放题时，按 `定义 -> 边界 -> 工程意义 -> Python 落地` 的顺序回答
 - 遇到系统设计题时，优先调用 `系统设计模板`
-- 需要长篇串讲版本时，再看 [[wiki/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]]
+- 需要长篇串讲版本时，再看 [[agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]]
 
 ## 这套知识库最终沉淀出的 10 个核心结论
 

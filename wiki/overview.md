@@ -1,6 +1,6 @@
 ---
 tags: [概览]
-updated: 2026-05-13
+updated: 2026-05-14
 ---
 
 # Wiki 概览
@@ -10,14 +10,14 @@ updated: 2026-05-13
 ## 当前状态
 
 - **主题数**：2（AI、知识管理）
-- **Wiki 页面数**：87
-- **AI 页面数**：79
-- **已摄入资料数**：81
-- **最后更新**：2026-05-13
+- **Wiki 页面数**：82
+- **AI 页面数**：80
+- **已摄入资料数**：82
+- **最后更新**：2026-05-14
 
 ## 主题地图
 
-### AI（79 篇）
+### AI（80 篇）
 
 #### 1. Harness / Agent-first 工程
 
@@ -38,6 +38,7 @@ updated: 2026-05-13
 - [[wiki/ai/transition-from-traditional-to-llm-programming|从传统编程转向大模型编程]] — 强调文档是源码、代码是编译结果的工作方式迁移
 - [[wiki/ai/ai-native-rd-paradigm-doc-driven-evolution|AI 原生研发范式：文档驱动演进]] — 从上下文腐烂、审查瘫痪和维护断层出发，给出轻量门禁式 SOP
 - [[wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo|Harness + SDD + 多仓管理]] — 将约束、Spec、多 Agent 协作和多仓工程实践拼成可执行工作流
+- [[wiki/ai/claude-code-html-artifacts-over-markdown|Claude Code 团队：为什么开始用 HTML artifact 替代 Markdown]] — 说明当工件主要由 agent 生成、人类主要负责阅读和反馈时，HTML 可以成为比 Markdown 更高信息密度的知识介质
 - [[wiki/ai/mini-claude-vibe-coding-rebuild|7 小时 Vibe Coding 一个 Mini-Claude]] — 用一个极简 coding agent 样本解释 API、tool loop、session manager、CLI 和 dashboard 的最小闭环
 - [[wiki/ai/team-ai-rd-harness-sdd-evolution|告别“氛围编程”]] — 从团队交付视角说明出码率上升不等于提效，必须把 SDD 和 Harness 接进全链路
 
@@ -121,14 +122,15 @@ updated: 2026-05-13
 
 - [[wiki/知识管理-最佳实践|知识管理最佳实践]] — 如何让个人知识库真正发挥作用，避免只存入不取出
 
-### 主题综述 / 面试资料（6 篇）
+### 个人笔记 / 面试资料（7 篇）
 
-- [[wiki/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
-- [[wiki/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
-- [[wiki/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 的分层关系
-- [[wiki/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 压缩评测、事故、权限、sandbox 与生产治理主线
-- [[wiki/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
-- [[wiki/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
+- [[notes/ai/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
+- [[notes/ai/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
+- [[notes/ai/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 的分层关系
+- [[notes/ai/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 压缩评测、事故、权限、sandbox 与生产治理主线
+- [[notes/ai/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
+- [[notes/ai/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
+- [[notes/ai/genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
 
 ## 跨主题联系
 

@@ -1,5 +1,9 @@
 ---
+title: Context、知识基础设施与 Harness 主题综述
+created: 2026-05-12
+updated: 2026-05-12
 tags: [分析, ai, context, knowledge, harness, coding]
+status: reviewed
 sources:
   - wiki/overview.md
   - wiki/ai/effective-context-engineering-for-ai-agents.md
@@ -12,7 +16,7 @@ sources:
   - wiki/ai/agents-md-practice-guide.md
   - wiki/ai/ai-agent-memory-systems-architecture-practice.md
   - wiki/ai/memory-architecture-ledger-views-policy.md
-updated: 2026-05-12
+wiki_pages: []
 ---
 
 # Context、知识基础设施与 Harness 主题综述

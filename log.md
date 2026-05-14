@@ -104,3 +104,9 @@
 ## [2026-05-13] ingest | 从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解
 ## [2026-05-13] ingest | 深度解析LLM Wiki / Obsidian-Wiki / GBrain：Agent时代知识的“自组织”与“自进化”
 ## [2026-05-13] lint | 刷新 overview 统计到 87 页 / 81 sources，补入 3 篇新 AI 页与 6 篇主题综述入口，消除 4 个零入链页面并复核 ingest-state YAML 可解析
+## [2026-05-14] query | 设计个人笔记层 notes 并更新知识库 schema
+## [2026-05-14] note | 将主题综述与面试材料迁移到 notes 层，并修正索引、overview 与笔记 frontmatter
+## [2026-05-14] note | 将 AI 主题综述与面试资料进一步收拢到 notes/ai/，统一笔记目录层级
+## [2026-05-14] note | 新增 GenericAgent 原理笔记，归档到 notes/ai/ 并补齐 notes frontmatter
+## [2026-05-14] ingest | Claude Code 团队工程师：我为什么放弃 Markdown，全面转向 HTML
+## [2026-05-14] lint | 摄入 HTML artifact 文章后刷新 overview 统计与 notes 入口，复核新页面索引、来源登记与交叉引用一致

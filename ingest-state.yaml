@@ -728,3 +728,12 @@ sources:
     wiki_pages:
       - wiki/ai/llm-wiki-obsidian-wiki-gbrain-knowledge-evolution.md
     notes: "Knowledge-engineering article explaining LLM Wiki, Obsidian-Wiki, and GBrain as a compiled, incrementally maintained wiki system rather than query-time-only RAG."
+  - path: raw/ai/2026-05-14-claude-code-html-artifacts-over-markdown-webclip.md
+    source_url: https://juejin.cn/post/7637440674708406298
+    source_type: webclip
+    canonical_topic: claude-code-html-artifacts-over-markdown
+    ingested: true
+    ingested_date: 2026-05-14
+    wiki_pages:
+      - wiki/ai/claude-code-html-artifacts-over-markdown.md
+    notes: "Claude Code team workflow article arguing that many agent-generated specs, reviews, and exploratory artifacts become more readable and interactive when emitted as HTML instead of Markdown."
