@@ -1,6 +1,6 @@
 ---
 tags: [概览]
-updated: 2026-05-14
+updated: 2026-05-15
 ---
 
 # Wiki 概览
@@ -10,14 +10,14 @@ updated: 2026-05-14
 ## 当前状态
 
 - **主题数**：2（AI、知识管理）
-- **Wiki 页面数**：82
-- **AI 页面数**：80
-- **已摄入资料数**：82
-- **最后更新**：2026-05-14
+- **Wiki 页面数**：83
+- **AI 页面数**：81
+- **已摄入资料数**：83
+- **最后更新**：2026-05-15
 
 ## 主题地图
 
-### AI（80 篇）
+### AI（81 篇）
 
 #### 1. Harness / Agent-first 工程
 
@@ -117,6 +117,7 @@ updated: 2026-05-14
 - [[wiki/ai/claude-personal-guidance|Claude 个人指导研究]] — 个人指导型对话的行为分布与谄媚风险
 - [[wiki/ai/anthropic-institute-agenda|Anthropic 研究所议程]] — TAI 四大研究支柱的高层地图
 - [[wiki/ai/biomysterybench-claude-bioinformatics|BioMysteryBench]] — Claude 在生物信息学任务上的能力边界
+- [[wiki/ai/2028-global-ai-leadership-scenarios|2028：全球 AI 领导权的两种情景]] — Anthropic 从 compute、蒸馏攻击与 adoption 出发，推演 2028 年民主国家能否锁定 AI 领先优势
 
 ### 知识管理（1 篇）
 
@@ -124,13 +125,13 @@ updated: 2026-05-14
 
 ### 个人笔记 / 面试资料（7 篇）
 
-- [[notes/ai/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
-- [[notes/ai/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
-- [[notes/ai/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 的分层关系
-- [[notes/ai/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 压缩评测、事故、权限、sandbox 与生产治理主线
-- [[notes/ai/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
-- [[notes/ai/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
-- [[notes/ai/genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
+- [[1.agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
+- [[2.agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
+- [[3.context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 的分层关系
+- [[5.eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 压缩评测、事故、权限、sandbox 与生产治理主线
+- [[4.enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
+- [[6.agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
+- [[7.genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
 
 ## 跨主题联系
 

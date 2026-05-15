@@ -15,6 +15,7 @@ _暂无_
 - [[wiki/ai/claude-personal-guidance|人们如何向 Claude 寻求个人指导]] — Anthropic 2026 年研究，基于约 100 万条对话抽样分析个人指导模式与谄媚问题
 - [[wiki/ai/anthropic-institute-agenda|Anthropic 研究所研究议程]] — TAI 四大研究支柱：经济扩散、威胁与韧性、AI 现实影响、AI 驱动研发
 - [[wiki/ai/biomysterybench-claude-bioinformatics|BioMysteryBench：Claude 生物信息学能力评估]] — Claude 在生物信息学任务上接近/超越人类专家，难题上准确率之外更关键的是可靠性仍然脆弱
+- [[wiki/ai/2028-global-ai-leadership-scenarios|2028：全球 AI 领导权的两种情景]] — Anthropic 用 compute、distillation 与 adoption 三个变量推演 2028 年中美 AI 竞争，并主张民主国家应锁定 12-24 个月前沿领先
 - [[wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo|Harness + SDD + 多仓管理：AI 全栈开发实践]] — 用约束、SDD 和多 Agent 协作提升 AI 代码生成的可采纳性
 - [[wiki/ai/harness-engineering-codex-agent-first|在智能体优先的世界中利用 Codex]] — OpenAI 的 agent-first 工程实践：短 AGENTS、仓库即记录系统、以约束和反馈回路替代手写代码
 - [[wiki/ai/ai-native-rd-organization-future|AI Native 时代：研发组织何去何从]] — 从组织设计视角讨论 agent 时代的执行图、管理塌缩、新瓶颈与治理结构
@@ -99,13 +100,13 @@ _暂无_
 
 ## 个人笔记
 
-- [[notes/ai/agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 基于当前知识库压缩出的面试作战手册，覆盖 Agent、RAG、Memory、Tool Use、Eval、Sandbox、Claude Code 与 Python 工程落地
-- [[notes/ai/agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 压缩全库中关于 workflow、runtime、Claude Code、OpenClaw 与多智能体选型的主线
-- [[notes/ai/context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 与 repo 级知识分层
-- [[notes/ai/eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 总结评测、badcase、benchmark 噪声、sandbox、权限与生产事故主线
-- [[notes/ai/enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、业务逻辑迁移、平台层膨胀、协作瓶颈与组织转型
-- [[notes/ai/agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 基于四篇主题综述与面试手册重排出的总复习册，按概念题、架构题、系统设计题与开放题组织
-- [[notes/ai/genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
+- [[1.agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 基于当前知识库压缩出的面试作战手册，覆盖 Agent、RAG、Memory、Tool Use、Eval、Sandbox、Claude Code 与 Python 工程落地
+- [[2.agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 压缩全库中关于 workflow、runtime、Claude Code、OpenClaw 与多智能体选型的主线
+- [[3.context-knowledge-harness-themes|Context、知识基础设施与 Harness 主题综述]] — 总结 Prompt/Context/Harness、Spec、RAG、Memory、AGENTS.md 与 repo 级知识分层
+- [[5.eval-reliability-security-themes|Eval、可靠性与安全治理主题综述]] — 总结评测、badcase、benchmark 噪声、sandbox、权限与生产事故主线
+- [[4.enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、业务逻辑迁移、平台层膨胀、协作瓶颈与组织转型
+- [[6.agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 基于四篇主题综述与面试手册重排出的总复习册，按概念题、架构题、系统设计题与开放题组织
+- [[7.genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
 
 ## 特殊页面
 

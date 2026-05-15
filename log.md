@@ -110,3 +110,5 @@
 ## [2026-05-14] note | 新增 GenericAgent 原理笔记，归档到 notes/ai/ 并补齐 notes frontmatter
 ## [2026-05-14] ingest | Claude Code 团队工程师：我为什么放弃 Markdown，全面转向 HTML
 ## [2026-05-14] lint | 摄入 HTML artifact 文章后刷新 overview 统计与 notes 入口，复核新页面索引、来源登记与交叉引用一致
+## [2026-05-15] ingest | 2028: Two scenarios for global AI leadership
+## [2026-05-15] lint | 为 2028 AI leadership 新页补入 Anthropic 议程与企业 AI 架构交叉引用，复核 Clippings 已清空且索引、状态表、overview 一致

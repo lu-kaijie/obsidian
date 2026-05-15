@@ -74,3 +74,4 @@ updated: 2026-05-08
 - [[wiki/ai/harness-engineering-codex-agent-first|在智能体优先的世界中利用 Codex]] — 这篇给出企业 AI 应用的总架构地图，OpenAI 那篇给出 agent-first 工程的实战样本
 - [[wiki/ai/ai-fullstack-dev-practice-harness-sdd-multi-repo|Harness + SDD + 多仓管理：AI 全栈开发实践]] — 两篇都强调约束、环境和反馈回路，而不是只谈模型能力
 - [[wiki/ai/ai-native-rd-organization-future|AI Native 时代：研发组织何去何从]] — 组织层的变化，最终要靠这里描述的基础设施层来承接
+- [[wiki/ai/2028-global-ai-leadership-scenarios|2028：全球 AI 领导权的两种情景]] — 这篇把企业架构图再向上延伸一层，讨论谁来控制算力、模型扩散与全球 AI 基础设施秩序

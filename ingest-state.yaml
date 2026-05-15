@@ -737,3 +737,12 @@ sources:
     wiki_pages:
       - wiki/ai/claude-code-html-artifacts-over-markdown.md
     notes: "Claude Code team workflow article arguing that many agent-generated specs, reviews, and exploratory artifacts become more readable and interactive when emitted as HTML instead of Markdown."
+  - path: raw/ai/2026-05-15-2028-global-ai-leadership-scenarios-webclip.md
+    source_url: https://www.anthropic.com/research/2028-ai-leadership
+    source_type: webclip
+    canonical_topic: 2028-global-ai-leadership-scenarios
+    ingested: true
+    ingested_date: 2026-05-15
+    wiki_pages:
+      - wiki/ai/2028-global-ai-leadership-scenarios.md
+    notes: "Anthropic policy scenario paper arguing that by 2028 democratic AI leadership depends on preserving compute advantage, blocking distillation attacks, and accelerating allied AI adoption."
