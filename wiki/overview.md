@@ -1,6 +1,6 @@
 ---
 tags: [概览]
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 # Wiki 概览
@@ -10,10 +10,11 @@ updated: 2026-05-15
 ## 当前状态
 
 - **主题数**：2（AI、知识管理）
-- **Wiki 页面数**：83
+- **Wiki 页面数**：82
 - **AI 页面数**：81
 - **已摄入资料数**：83
-- **最后更新**：2026-05-15
+- **个人笔记数**：18
+- **最后更新**：2026-05-17
 
 ## 主题地图
 
@@ -123,7 +124,7 @@ updated: 2026-05-15
 
 - [[wiki/知识管理-最佳实践|知识管理最佳实践]] — 如何让个人知识库真正发挥作用，避免只存入不取出
 
-### 个人笔记 / 面试资料（7 篇）
+### 个人笔记 / 面试资料（18 篇）
 
 - [[1.agent-llm-application-interview-handbook|Agent 应用开发 / 大模型应用开发面试八股手册]] — 把全库主线压缩成面试短答与 Python 工程落地表达框架
 - [[2.agent-runtime-architecture-themes|Agent 运行时与架构主题综述]] — 从行为、runtime、control plane 三层压缩 Agent 架构主线
@@ -132,6 +133,17 @@ updated: 2026-05-15
 - [[4.enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、平台层膨胀与组织转型
 - [[6.agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 在四篇主题综述之上重排出的长篇复习册
 - [[7.genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
+- [[8.multi-agent-summary|多 Agent 任务协作：从教学实现到生产实践]] — 从教学型实现一路整理到生产多 Agent 控制面，包括任务板、邮箱、审批协议与 worktree 隔离
+- [[9.TencentDB Agent Memory|TencentDB Agent Memory 项目做法总结]] — 聚焦长短期记忆分层、外部上下文卸载与可回钻的记忆架构
+- [[10.hermes-agent-memory-and-knowledge|记忆与知识系统 — 实现解析]] — 拆 Hermes 的持久化记忆、会话搜索、provider 编排与 memory nudge
+- [[11.hermes-agent-self-improving-learning-loop|自我改进学习循环 — 实现解析]] — 聚焦 skill 创建、后台审查、使用遥测与自我改进闭环
+- [[12.rag|RAG 资料笔记]] — 保留一篇偏入门的 RAG 工作态资料，覆盖 chunking、embedding、检索、重排与评估
+- [[13.claude-code-cmd|Claude Code 命令流笔记]] — 记录 `/powerup`、`@` 引用文件和 CLI 常见操作的工作态说明
+- [[14.claude-code-source-code-explain|Claude Code 源码讲解资料笔记]] — 收一篇偏源码导读的长文，便于后续继续提炼 runtime 层次
+- [[15.claude-code-muti-agents|Claude Code 多 Agent 机制资料笔记]] — 聚焦 subagent、fork subagent 与 coordinator 模式
+- [[16.Harness Engineering|Harness Engineering 资料笔记]] — 保留“把错误修进环境”的代表性材料，适合作为 harness 观念样本
+- [[17.OpenClaw|OpenClaw 资料笔记]] — 收一篇偏 OpenClaw 架构科普 / 面试向材料
+- [[18.GraphRAG|GraphRAG 资料笔记]] — 保留 GraphRAG / LightRAG 的工作态材料，服务后续 RAG 主线整理
 
 ## 跨主题联系
 
