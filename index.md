@@ -107,6 +107,16 @@ _暂无_
 - [[4.enterprise-platform-shifts-themes|企业落地、平台中间层与方法论转向主题综述]] — 总结企业 AI 架构、业务逻辑迁移、平台层膨胀、协作瓶颈与组织转型
 - [[6.agent-application-interview-master-review|Agent 应用开发面试长篇总复习册]] — 基于四篇主题综述与面试手册重排出的总复习册，按概念题、架构题、系统设计题与开放题组织
 - [[7.genericagent-principles|GenericAgent 原理笔记]] — 围绕 context density、最小原子工具、分层记忆与运行时压缩整理出的结构化阅读笔记
+- [[9.TencentDB Agent Memory|TencentDB Agent Memory 项目做法总结]] — 聚焦分层记忆与短期上下文卸载，适合作为 memory 系统的落地案例
+- [[10.hermes-agent-memory-and-knowledge|记忆与知识系统 — 实现解析]] — 拆 Hermes 的持久记忆、会话搜索与外部 memory provider 分层
+- [[11.hermes-agent-self-improving-learning-loop|自我改进学习循环 — 实现解析]] — 聚焦 skill 创建、后台审查与自我改进闭环
+- [[12.rag|RAG 资料笔记]] — 从检索、切分、embedding 到评估，保留一篇偏入门的工作态资料
+- [[13.claude-code-cmd|Claude Code 命令流笔记]] — 记录 `/powerup`、`@` 引用和 CLI 使用细节，便于后续整理为操作手册
+- [[14.claude-code-source-code-explain|Claude Code 源码讲解资料笔记]] — 收一篇偏源码导读的长文，后续可继续提炼 runtime 结构
+- [[15.claude-code-muti-agents|Claude Code 多 Agent 机制资料笔记]] — 聚焦 subagent、fork 与 coordinator 协作模式
+- [[16.Harness Engineering|Harness Engineering 资料笔记]] — 保留 Mitchell 语境下“把错误修进环境”的典型论述
+- [[17.OpenClaw|OpenClaw 资料笔记]] — 收一篇偏 OpenClaw 架构科普/面试向材料
+- [[18.GraphRAG|GraphRAG 资料笔记]] — 保留 GraphRAG / LightRAG 的工作态面试材料
 
 ## 特殊页面
 

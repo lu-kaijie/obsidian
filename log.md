@@ -112,3 +112,4 @@
 ## [2026-05-14] lint | 摄入 HTML artifact 文章后刷新 overview 统计与 notes 入口，复核新页面索引、来源登记与交叉引用一致
 ## [2026-05-15] ingest | 2028: Two scenarios for global AI leadership
 ## [2026-05-15] lint | 为 2028 AI leadership 新页补入 Anthropic 议程与企业 AI 架构交叉引用，复核 Clippings 已清空且索引、状态表、overview 一致
+## [2026-05-17] note | 将 10 篇 AI 资料笔记从 Clippings 工作态迁入 notes/ai，并统一补齐 notes frontmatter、index 入口与来源字段
